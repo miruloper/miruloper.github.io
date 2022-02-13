@@ -1,0 +1,37 @@
+img {/*画像の長押しとドラッグ禁止*/
+  pointer-events: none;
+-webkit-touch-callout:none;
+  -webkit-user-select:none;
+  -moz-touch-callout:none;
+  -moz-user-select:none;
+  touch-callout:none;
+  user-select:none;
+}
+
+
+body {
+user-select: none /* 選択を禁止する */
+-webkit-touch-callout:none; /* リンク長押しのポップアップを無効化 */
+-webkit-user-select:none; /* テキスト長押しの選択ボックスを無効化 */
+color: #ffffff;
+  background-color: #000000;
+}
+
+
+html {
+	font-family: 'M PLUS 1p', sans-serif;
+}
+
+/*div{
+ height: 1000px;
+}
+*/
+
+/*見出し*/
+.cp_h1title {
+	padding: 0.1em 0.3em;
+	border-left: 10px solid #ff8c00;
+	background: #ff8c00;
+	box-shadow:0px 1px 1px 0px rgba(0,0,0,0.4);
+}
+
