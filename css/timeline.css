@@ -10,7 +10,7 @@
 	width: 3px;
 	height: 100%;
 	content: '';
-	background: #e91e63;
+	background: #ff8c00;
 }
 .cp_timeline04 .timeline_item {
 	margin: 0px 0px 0px 80px;
@@ -33,7 +33,7 @@
 	content: '';
 	-webkit-transform: rotate(45deg);
 	        transform: rotate(45deg);
-	border: 3px solid #e91e63;
+	border: 3px solid #ff8c00;
 	background: #fff;
 }
 .cp_timeline04 .timeline_item .time_date .flag {
