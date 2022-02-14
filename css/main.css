@@ -28,10 +28,12 @@ html {
 */
 
 /*見出し*/
+
 .cp_h1title {
 	padding: 0.1em 0.3em;
 	border-left: 10px solid #ff8c00;
+	border-bottom: 1px solid #ff8c00;
 	background: #ff8c00;
-	box-shadow:0px 1px 1px 0px rgba(0,0,0,0.4);
+	color:#ffffff;
 }
 
