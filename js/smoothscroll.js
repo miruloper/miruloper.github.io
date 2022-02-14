@@ -14,6 +14,6 @@ $(function(){
     var target = $(href);
     var position = target.offset().top - headerHeight;
     $('body,html').stop().animate({scrollTop:position}, 500); // スクロール速度ミリ秒
-    return false; // #付与なし、付与したい場合は、true
+    return true; // #付与なし、付与したい場合は、true
   });
 });
