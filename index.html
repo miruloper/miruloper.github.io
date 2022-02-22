@@ -5,14 +5,83 @@
       <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
       <!--Import materialize.css-->
       <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+     
+     <script src="/js/smoothscroll.js"></script>
+     <script src="/js/aos.js"></script>
+     <script src="/jquery/jquery-3.6.0.min.js"></script>
+     
 
       <!--Let browser know website is optimized for mobile-->
       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     </head>
 
     <body>
+     
+     <!--welcome -->
+<div data-aos="fade-in" data-aos-duration="1000" data-aos-once="true">
+                    <h1 id="top">
+                        Welcome to my web site!
+                    </h1>
+                    </div>
+	    <div data-aos="fade-in" data-aos-duration="1000" data-aos-delay="1000" data-aos-once="true">
+                    <h2>
+                        This is miruloper's site.
+                    </h2>
+                    </div>
+	  <div data-aos="fade-in" data-aos-duration="1000" data-aos-delay="2000" data-aos-once="true">
+                    <h3>
+                        Thanks for visiting!
+                    </h3>
+                    </div>
+     
+     <!--about -->
+     <div data-aos="fade-right">
+                    <h2 id="about">
+                        About
+                    </h2>
+     </div>
 
+      <!--news -->
+        <div data-aos="fade-right">
+                    <h2 id="news">
+                        News
+                    </h2>
+                    </div>
+
+			<!--works -->
+<div data-aos="fade-right">
+                    <h2 id="works">
+                        Works
+                    </h2>
+                    </div>
+
+     	<!--contact -->
+     <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSdpPd73WJd3y968NTxwQsLNQUteI5lnQiRNvqEEWO0xpdqixg/formResponse"
+                            target="hidden_iframe" onsubmit="submitted=true" method="POST" id="mG61Hd" >
+                            <iframe name="hidden_iframe" style="display:none;" onload="if(submitted) {window.location='/thanks.html';}"></iframe>
+                            <h3>お問い合わせフォーム</h3>
+                                <input type="text" name="entry.1605721000" required="required" />
+                                <label for="input">名前 / Name</label>
+  
+                                <input type="email" name="entry.1029098926" required="required" />
+                                <label for="input">E-mail</label>
+                             
+                                <textarea name="entry.921543188" required="required"></textarea>
+                                <label for="textarea">内容 / Detail</label>
+  
+
+                                <button class="btn" type="submit"><span>送信 / Submit</span></button>
+                        </form>
+     
+     
+     <footer>
+                            <a>Copyright (C) miruloper all right reserved. </a><br>
+                            <a>Released under the MIT license(https://github.com/lukehaas/css-loaders/blob/step2/LICENSE)</a><br>
+                            <a>Thank you very much for (https://materializecss.com/).</a><br>
+                        </footer>
+     
       <!--JavaScript at end of body for optimized loading-->
       <script type="text/javascript" src="js/materialize.min.js"></script>
+      <script>AOS.init();</script>
     </body>
   </html>
