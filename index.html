@@ -61,19 +61,19 @@
                             <iframe name="hidden_iframe" style="display:none;" onload="if(submitted) {window.location='/thanks.html';}"></iframe>
                             <h3>お問い合わせフォーム</h3>
 	     
-	     <div class="input-field">
-                                <input type="text" name="entry.1605721000" required="required" class="validate" />
-                                <label for="input">名前 / Name</label>
+	     <div class="name-field">
+                                <input type="text" name="entry.1605721000" required="required" class="validate" id="name" />
+		     <label for="name">名前 / Name</label>
 	     </div>
   
 	     <div class="input-field">
-                                <input type="email" name="entry.1029098926" required="required" class="validate" />
-                                <label for="input">E-mail</label>
+                                <input type="email" name="entry.1029098926" required="required" class="validate" id="email" />
+                                <label for="email">E-mail</label>
 	     </div>        
 		     
 	     <div class="input-field">
-                                <textarea name="entry.921543188" required="required"class="validate" ></textarea>
-                                <label for="textarea">内容 / Detail</label>
+                                <textarea name="entry.921543188" required="required"class="validate" id="detail"></textarea>
+                                <label for="detail">内容 / Detail</label>
 	     </div>
 
                                 <button class="btn" type="submit"><span>送信 / Submit</span></button>
